@@ -8,16 +8,16 @@ Recommender system are of two types -
    * collaboration filtering
   
  In context based filtering it only depend upon the context.
- example-Netflix
+    example-Netflix
  In collaboration filtering it work with the technique of collaborator.
- example-amazon
+    example-amazon
  
- we will be using collaboration filtering
+ We will be using collaboration filtering
  
  In recommonded system we take an example of movielens,in which our attribute is user_id,rating,team_id,timespan
  With th help of mapping for we will depict for which the movie is rate by user
  for which we use a correlaion .
- we use pandas library for reading the csv dataset .
+ We use pandas library for reading the csv dataset .
  we have to merge this dataset table with our movie table using key.
  
  Metaplot library and Seaborn are important libray viualization and characterising our data.
