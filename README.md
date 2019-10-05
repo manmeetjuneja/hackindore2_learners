@@ -18,13 +18,13 @@ Recommender system are of two types -
  With th help of mapping for we will depict for which the movie is rate by user
  for which we use a correlaion .
  We use pandas library for reading the csv dataset .
- we have to merge this dataset table with our movie table using key.
+ We have to merge this dataset table with our movie table using key.
  
  Metaplot library and Seaborn are important libray viualization and characterising our data.
  With the help of these library we create a rating for dataset,then we create a rating dataframe wih average rating.
- this is a recommended system which we are gong to create 
- it Create a dataframe by which we get number of movie rated by user
-we used a dataframe and set the mean value. Now we have to integrate the data,for which we make a histogram for number of rating exprss by a list.Then we create a jointplot which give combination of good scattered plot.
+ This is a recommended system which we are gong to create 
+ It Create a dataframe by which we get number of movie rated by user
+We used a dataframe and set the mean value. Now we have to integrate the data,for which we make a histogram for number of rating exprss by a list.Then we create a jointplot which give combination of good scattered plot.
 _Recommending simple movie_
-we make a pivot table in which user idea give their rating on it.then we use a parameter called need.
+We make a pivot table in which user idea give their rating on it.then we use a parameter called need.
 Now we find the correlation between two movies from databae,for this we ue a pivot table due to which next rcommended movie is shown to the user.
